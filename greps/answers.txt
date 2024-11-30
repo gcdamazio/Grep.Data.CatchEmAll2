@@ -1,23 +1,28 @@
 # Part 1
-### a)
+### a) / ### b) / ### c)
 
+file 1
 
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "beed" forest/filescan_00.* > captured/beedrill.txt
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "blas" forest/filescan_00.* > captured/blastoise.txt
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "butterfree" forest/filescan_00.* > captured/butterfree.txt
 
+file 2
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "mander" forest/filescan_00.* > captured/charmander.txt
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "melon" forest/filescan_00.* > captured/charmeleon.txt    
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "izard" forest/filescan_00.* > captured/charizard.txt
 
-### b)
+file 3
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "ivys" forest/filescan_00.* > captured/ivysaur.txt        
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "jigg" forest/filescan_00.* > captured/jigglypuff.txt     
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "meow" forest/filescan_00.* > captured/meowth.txt         
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "chu" forest/filescan_00.* > captured/pikachu.txt
 
-
-
-### c)
-
-
-
-
-
-
-
-
-
+file 4
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "psyd" forest/filescan_00.* > captured/psyduck.txt        
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "squi" forest/filescan_00.* > captured/squirtle.txt       
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "venu" forest/filescan_00.* > captured/venusaur.txt       
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep "wart" forest/filescan_00.* > captured/wartortle.txt 
 
 
 
@@ -25,14 +30,20 @@
 # Part 2
 ### a)
 
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % grep -l "" captured/*.txt | wc -l
 
+      14
 
 
 
 
 ### b)
 
+gdamazio@Zipcoders-MacBook-Pro-3 Grep.Data.CatchEmAll2 % wc -l captured/*.txt | sort -n -r | head -n 3
 
+     465 total
+      40 captured/pikachu.txt
+      40 captured/charizard.txt
 
 
 
